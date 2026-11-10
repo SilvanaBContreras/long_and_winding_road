@@ -1,0 +1,3 @@
+# Los notebooks se guardan en git sin salidas: las salidas pueden
+# contener registros de Chartmetric, que no se pueden compartir.
+*.ipynb filter=limpiar-salidas

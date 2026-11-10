@@ -1,0 +1,69 @@
+# ============================================================
+# CREDENCIALES
+# ============================================================
+
+.Renviron
+.env
+.env.*
+
+
+# ============================================================
+# ARCHIVOS DE SESIÓN R
+# ============================================================
+
+.Rhistory
+.RData
+.Ruserdata
+
+
+# ============================================================
+# JUPYTER / VS CODE
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# DESCARGAS Y CACHE DE CHARTMETRIC
+# ============================================================
+
+chartmetric_pilotos/
+
+
+# Por seguridad, si estos archivos aparecen fuera de esa carpeta
+chartmetric_raw_long.rds
+chartmetric_raw_responses.rds
+chartmetric_request_log.csv
+
+
+# ============================================================
+# ARCHIVOS TEMPORALES
+# ============================================================
+
+*.tmp
+*.temp
+~$*
+
+# Datos de entrada
+dataset_raw_concat_7000.csv
+
+#datasets
+*.csv
+*.txt
+
+# ============================================================
+# RECURSOS GRAFICOS PARA PRESENTACIONES (no son figuras del codigo)
+# ============================================================
+
+imagenes_estética/
+
+
+# ============================================================
+# SALIDAS CON REGISTROS DE CHARTMETRIC (licencia: no se comparten)
+# Los notebooks se suben sin salidas (ver .gitattributes).
+# ============================================================
+
+*.rds
+
+# Accesos directos de Windows
+*.lnk
