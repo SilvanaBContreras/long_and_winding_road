@@ -67,3 +67,7 @@ imagenes_estética/
 
 # Accesos directos de Windows
 *.lnk
+
+# Recursos locales que no se suben
+fuentes/
+LWR_contexto_industria/

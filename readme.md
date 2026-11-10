@@ -40,10 +40,8 @@ Se corren en orden. Todos usan R (kernel `ir`) con `data.table`. Cada notebook r
 - *Salida:* perfil de cada artista (local).
 
 **Complementos**
-- `LWR_contexto_industria/`: ingresos globales de la música grabada por formato (IFPI), para la introducción.
 - `LWR_grafos_exploracion/`: red de vecinos entre artistas y eigengap, como lectura complementaria de los perfiles.
 - `figuras/`: figuras generadas por los notebooks, más los scripts de contexto de plataformas (`contexto_*.R`).
-- `fuentes/`: tipografía DejaVu Sans Mono usada en las figuras.
 
 El notebook 01 tiene el interruptor `EJECUTAR_EXTRACCION_API` (sección 1). Con `FALSE` (valor por defecto) corre completo desde el cache local, sin hacer requests a la API.
 
